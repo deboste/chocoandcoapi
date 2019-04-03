@@ -31,8 +31,6 @@ myRouter.route('/')
 app.use(myRouter);
 
 // Démarrer le serveur
-app.listen(port, hostname, function(){
-	console.log("Mon serveur fonctionne sur http://"+ hostname +":"+port);
-});
+app.listen(port, hostname);
 
 module.exports = { handler };
