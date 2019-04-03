@@ -3,8 +3,7 @@ var express = require('express');
 var cors = require('cors');
 
 // Nous définissons ici les paramètres du serveur.
-var hostname = 'localhost';
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 // Nous créons un objet de type Express.
 var app = express();
@@ -33,5 +32,5 @@ myRouter.route('/')
 app.use(myRouter);
 
 // Démarrer le serveur
-app.listen(port, hostname);
+app.listen(port);
 
