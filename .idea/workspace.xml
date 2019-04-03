@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0bf1e1a8-d254-4fbd-928a-8c378c038d7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/api.js" afterDir="false" />
+>>>>>>> 8c88778ab09f4fd7f970a0602571cd6df7c80cc6
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +20,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+>>>>>>> 8c88778ab09f4fd7f970a0602571cd6df7c80cc6
               <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
@@ -77,8 +88,11 @@
         <option value="$PROJECT_DIR$/api.spec.js" />
         <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
         <option value="$PROJECT_DIR$/api.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
+=======
+>>>>>>> 8c88778ab09f4fd7f970a0602571cd6df7c80cc6
       </list>
     </option>
   </component>
@@ -139,7 +153,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554281664850</updated>
+<<<<<<< HEAD
       <workItem from="1554281666074" duration="5619000" />
+=======
+      <workItem from="1554281666074" duration="4439000" />
+>>>>>>> 8c88778ab09f4fd7f970a0602571cd6df7c80cc6
     </task>
     <task id="LOCAL-00001" summary="tests unitaires">
       <created>1554296105263</created>
@@ -152,7 +170,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="5619000" />
+=======
+    <option name="totallyTimeSpent" value="4439000" />
+>>>>>>> 8c88778ab09f4fd7f970a0602571cd6df7c80cc6
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -193,6 +215,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/server.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -201,6 +224,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
+=======
+    <entry file="file://$PROJECT_DIR$/api.spec.js">
+>>>>>>> 8c88778ab09f4fd7f970a0602571cd6df7c80cc6
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71585" />
       </provider>
@@ -214,8 +240,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+=======
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+>>>>>>> 8c88778ab09f4fd7f970a0602571cd6df7c80cc6
         </state>
       </provider>
     </entry>
