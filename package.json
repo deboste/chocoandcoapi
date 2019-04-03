@@ -2,7 +2,7 @@
   "name": "chocoandcoapi",
   "version": "1.0.0",
   "description": "demo devops orange",
-  "main": "api.js",
+  "main": "server.js",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
