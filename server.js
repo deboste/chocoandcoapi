@@ -16,7 +16,7 @@ var myRouter = express.Router();
 app.use(cors({origin: '*'}));
 
 function handler() {
-	return {message: "Chocolatine"};
+	return {message: "Pain au chocolat"};
 }
 
 module.exports = { handler };
