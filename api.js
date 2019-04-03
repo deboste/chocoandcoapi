@@ -20,6 +20,8 @@ function handler() {
 	return {message: "Chocolatine"};
 }
 
+module.exports = { handler };
+
 myRouter.route('/')
 // J'implémente les méthodes GET, PUT, UPDATE et DELETE
 // GET
@@ -33,4 +35,3 @@ app.use(myRouter);
 // Démarrer le serveur
 app.listen(port, hostname);
 
-module.exports = { handler };
