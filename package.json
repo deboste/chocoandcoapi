@@ -1,0 +1,25 @@
+{
+  "name": "chocoandcoapi",
+  "version": "1.0.0",
+  "description": "demo devops orange",
+  "main": "api.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jest": "^24.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/etienne.debost/chocoandcoapi.git"
+  },
+  "author": "edebost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/etienne.debost/chocoandcoapi/issues"
+  },
+  "homepage": "https://gitlab.com/etienne.debost/chocoandcoapi#readme"
+}

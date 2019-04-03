@@ -16,11 +16,15 @@ var myRouter = express.Router();
 // use it before all route definitions
 app.use(cors({origin: '*'}));
 
+function handler() {
+	return {message: "Chocolatine"};
+}
+
 myRouter.route('/')
 // J'implémente les méthodes GET, PUT, UPDATE et DELETE
 // GET
-	.get(function(req,res){
-		res.json({message : "Chocolatine", methode : req.method});
+	.get(function (req,res){
+		res.json(handler());
 	})
 
 // Nous demandons à l'application d'utiliser notre routeur
@@ -30,3 +34,5 @@ app.use(myRouter);
 app.listen(port, hostname, function(){
 	console.log("Mon serveur fonctionne sur http://"+ hostname +":"+port);
 });
+
+module.exports = { handler };
