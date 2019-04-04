@@ -1,4 +1,3 @@
-// Import
 var express = require('express');
 var cors = require('cors');
 
@@ -16,13 +15,12 @@ var myRouter = express.Router();
 app.use(cors({origin: '*'}));
 
 function handler() {
-	return {message: "Pain au chocolat"};
+	return {message: process.env.MESSAGE || "Pain au chocolat"};
 }
 
 module.exports = { handler };
 
 myRouter.route('/')
-// J'implémente les méthodes GET, PUT, UPDATE et DELETE
 // GET
 	.get(function (req,res){
 		res.json(handler());
